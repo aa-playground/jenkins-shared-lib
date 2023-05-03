@@ -3,7 +3,7 @@
 ### dockerbuild usage
 - add the shared library in the Jenkinsfile
 ```
-library identifier: 'jenkins-shared-lib@fmain', retriever: modernSCM([$class: 'GitSCMSource',
+library identifier: 'jenkins-shared-lib@main', retriever: modernSCM([$class: 'GitSCMSource',
    remote: 'https://github.com/aa-playground/jenkins-shared-lib.git',
    credentialsId: 'github_token'])
 ```
