@@ -8,6 +8,7 @@ library identifier: 'jenkins-shared-lib@fmain', retriever: modernSCM([$class: 'G
 
 - add the function call in the stage
 
+```
     stage('Docker Image Build') {
       steps {
         script{
@@ -17,3 +18,4 @@ library identifier: 'jenkins-shared-lib@fmain', retriever: modernSCM([$class: 'G
             }
         }
     }
+```
